@@ -1,0 +1,226 @@
+.clearfix{
+    clear: both;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: segoe ui light;
+}
+.container{
+    width: 100%;
+}
+.container .top{
+    max-width: 100%; 
+    height: 100px;
+}
+.container .top .logo{
+    float: left;
+}
+.container .top .logo img{
+    width: 120px;
+    position: relative;
+    top: 15px;
+    left: 45px;
+    margin-right:50px;
+}
+.container .top .menu{
+    float: left;
+}
+.container .top .menu ul{
+    list-style: none; 
+}
+.container .top .menu ul li{
+    float: left;
+    margin-right: 10px;
+}
+.container .top .menu ul li a{
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.container .top .button{
+    float: right;
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-right: 150px;
+}
+.container2 .middle .button a,
+.container .top .button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:15px;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.container2 .middle{
+    text-align: center;
+}
+.container2 .middle h1{
+    line-height: 50px;
+}
+.container2 .middle .text1{
+    color: #4a90e2;
+}
+.container2 .middle .button{
+    width: 150px;
+    margin: 0 auto;
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top:40px;
+}
+.middle2{
+    margin-top: 100px;
+    width: 100%;
+    border-top: solid 0.5px #9ad0d8;
+}
+.middle2 .info{
+    margin-top: 30px;
+}
+.middle2 .info .button{
+    background: #31639c;
+    width: 60px;
+    padding:7px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+}
+.middle2 .info .button a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size:10px;
+}
+.middle2 .info span{
+    
+    color: #666666;
+    font-weight: 400;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+}
+.middle2 .info span a{
+    color:#4a90e2;
+}
+.footer .info,
+.middle3{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top:70px;
+}
+.mucdich .text h2,
+.footer .info h2,
+.middle3 h2{ 
+    color: #252525;
+    font-weight: 300;
+}
+.footer .detail .thongtin ul li .row .col-9 .text p,
+.footer .info p,
+.middle3 p{
+    font-weight: 400;
+    color: #808080;
+    text-align: left;
+}
+.grid ul{
+    margin-top:50px;
+   list-style: none;
+}
+.grid ul li{
+    width:23%;
+    float:left;
+    margin-right:2.5%;
+}
+.grid ul li:last-child{
+    margin-right: 0;
+}
+.grid ul li img{
+    width:100%;
+}
+.footer .detail .thongtin ul li .row .col-9 .text h4,
+.grid ul li h4{
+    color: #252525;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mucdich .text p,
+.grid ul li p{
+    color: #666666;
+    font-weight: 400;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    background: #fafafa;
+    margin-bottom: 100px;
+}
+.footer .detail{
+    width:80%;
+    margin:0 auto;
+}
+.footer .detail .thongtin{
+    width: 48%;
+    float: left;
+}
+.footer .detail .thongtin ul{
+    list-style: none;
+    width: 390px;
+}
+.footer .detail .thongtin ul li{
+    display: inline-block;
+}
+.footer .detail .thongtin ul li .row .col-2 .circle{
+    background: #fafafa;
+    text-align: center;
+    margin: 0 auto;
+    border: solid 0.5px skyblue;
+    border-radius: 62%;
+    width: 43px;
+}
+.footer .detail .thongtin ul li .row .col-9 .text h4{
+    text-align: left;
+}
+
+.footer .detail .anh{
+    float:right;
+    width:48%;
+}
+.footer .detail .anh img{
+    width:100%;
+}
+.mucdich{
+    width: 100%;
+    text-align: center;
+    border-top: solid 0.5px #9ad0d8;
+    padding-top:50px;
+}
+.mucdich .text{
+    width:60%;
+    margin: 0 auto;
+}
+.mucdich .text p{
+    text-align: left;
+}
+.mucdich .text blockquote{
+    font-style: italic;
+    font-weight: 300;
+}
+.mucdich .text .social{
+    list-style: none;
+}
+.mucdich .text .social li{
+    float: left;
+}
